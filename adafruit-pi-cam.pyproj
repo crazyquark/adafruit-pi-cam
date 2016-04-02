@@ -83,7 +83,6 @@
     <Content Include="icons\working.png" />
     <Content Include="icons\yes.png" />
     <Content Include="icons\yn.png" />
-    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="icons" />
