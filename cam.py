@@ -302,7 +302,7 @@ buttons = [
   [Button((  0,188,156, 52), bg='gear'		, cb=viewCallback, value=0),
    Button((164,188,156, 52), bg='play'		, cb=viewCallback, value=1),
 #  Button((  0,  0,320,240)					, cb=viewCallback, value=2),
-   Button((200,180,320,240), bg='shutter'	, cb=shutterCallback),  # Shutter button
+   Button((180, 50,230,100), bg='shutter'	, cb=shutterCallback),  # Shutter button
    Button(( 88, 51,157,102)),  # 'Working' label (when enabled)
    Button((148,110, 22, 22))], # Spinner (when enabled) 
 
