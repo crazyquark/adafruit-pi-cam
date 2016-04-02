@@ -38,6 +38,9 @@ import yuv2rgb
 from pygame.locals import *
 from subprocess import call  
 
+# Debugging support for VS
+import ptvsd
+ptvsd.enable_attach("kriekpi")
 
 # UI classes ---------------------------------------------------------------
 
