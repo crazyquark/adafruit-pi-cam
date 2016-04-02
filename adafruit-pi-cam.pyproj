@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{bed720c5-bca8-4a96-8b05-c44bdecb3cb9}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>cam.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="cam.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons\delete.png" />
+    <Content Include="icons\done.png" />
+    <Content Include="icons\empty.png" />
+    <Content Include="icons\fx-blur.png" />
+    <Content Include="icons\fx-cartoon.png" />
+    <Content Include="icons\fx-colorswap.png" />
+    <Content Include="icons\fx-denoise.png" />
+    <Content Include="icons\fx-emboss.png" />
+    <Content Include="icons\fx-film.png" />
+    <Content Include="icons\fx-gpen.png" />
+    <Content Include="icons\fx-hatch.png" />
+    <Content Include="icons\fx-negative.png" />
+    <Content Include="icons\fx-none.png" />
+    <Content Include="icons\fx-oilpaint.png" />
+    <Content Include="icons\fx-pastel.png" />
+    <Content Include="icons\fx-posterise.png" />
+    <Content Include="icons\fx-posterize.png" />
+    <Content Include="icons\fx-sketch.png" />
+    <Content Include="icons\fx-solarize.png" />
+    <Content Include="icons\fx-washedout.png" />
+    <Content Include="icons\fx-watercolor.png" />
+    <Content Include="icons\fx.png" />
+    <Content Include="icons\gear.png" />
+    <Content Include="icons\iso-0.png" />
+    <Content Include="icons\iso-100.png" />
+    <Content Include="icons\iso-200.png" />
+    <Content Include="icons\iso-320.png" />
+    <Content Include="icons\iso-400.png" />
+    <Content Include="icons\iso-500.png" />
+    <Content Include="icons\iso-640.png" />
+    <Content Include="icons\iso-800.png" />
+    <Content Include="icons\iso-arrow.png" />
+    <Content Include="icons\iso-bar.png" />
+    <Content Include="icons\iso.png" />
+    <Content Include="icons\next.png" />
+    <Content Include="icons\no.png" />
+    <Content Include="icons\play.png" />
+    <Content Include="icons\prev.png" />
+    <Content Include="icons\quit-ok.png" />
+    <Content Include="icons\quit.png" />
+    <Content Include="icons\radio3-0.png" />
+    <Content Include="icons\radio3-1.png" />
+    <Content Include="icons\size-l.png" />
+    <Content Include="icons\size-m.png" />
+    <Content Include="icons\size-s.png" />
+    <Content Include="icons\size.png" />
+    <Content Include="icons\storage.png" />
+    <Content Include="icons\store-boot.png" />
+    <Content Include="icons\store-dropbox.png" />
+    <Content Include="icons\store-folder.png" />
+    <Content Include="icons\trash.png" />
+    <Content Include="icons\work-0.png" />
+    <Content Include="icons\work-1.png" />
+    <Content Include="icons\work-2.png" />
+    <Content Include="icons\work-3.png" />
+    <Content Include="icons\work-4.png" />
+    <Content Include="icons\working.png" />
+    <Content Include="icons\yes.png" />
+    <Content Include="icons\yn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="icons" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
