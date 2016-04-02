@@ -303,8 +303,8 @@ buttons = [
    Button((164,188,156, 52), bg='play', cb=viewCallback, value=1),
    Button((  0,  0,320,240)           , cb=viewCallback, value=2),
    Button(( 88, 51,157,102)),  # 'Working' label (when enabled)
-   Button((148, 110,22, 22)),
-   Button((0, 180, 0, 150), bg='shutter', cb=shutterCallback)], # Spinner (when enabled)
+   Button((148,110, 22, 22)),  # Spinner (when enabled) 
+   Button((150,110, 20, 20), bg='shutter', cb=shutterCallback)],  # Shutter button
 
   # Remaining screens are settings modes
 
