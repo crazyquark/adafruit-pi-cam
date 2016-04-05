@@ -1,5 +1,5 @@
-adafruit-pi-cam
-===============
+adafruit-pi-cam-noir
+====================
 Original Readme:
 ----------------  
 
